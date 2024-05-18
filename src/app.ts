@@ -13,8 +13,6 @@ app.use(cors());
 app.use("/api/v1", router);
 
 app.get("/", (req: Request, res: Response) => {
-  var a = 1;
-
   res.send("Hello World!");
 });
 
